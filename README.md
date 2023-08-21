@@ -24,3 +24,22 @@ in this example, owner can perform Read, write and execute, group and others can
 .. = parent directory 
 / = directory seperator
 
+type =  this command shows if the file is shell built in or not
+example:- `type echo`
+echo is a shell builtin
+
+type -a = display all instances of the file
+example - `type -a echo`
+echo is a shell builtin
+echo is /usr/bin/echo
+echo is /bin/echo
+
+
+help = help commmand is used to display the information about file
+example - `help echo`
+help shows information about only shell built in commands
+
+man = stands for manual, displays the information about the non shell built commands.
+example - `man uptime`
+
+
