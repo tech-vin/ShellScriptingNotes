@@ -17,7 +17,7 @@ WORD='script'
 echo "$WORD"  # output: script
 echo '$WORD'  # output: WORD
 
-#Combine the variable with the hardcoded text 
+# Combine the variable with the hardcoded text 
 echo 'This is a shell $WORD'
 echo "This is a shell $WORD"
 
@@ -37,6 +37,6 @@ ENDING='ed'
 # Combine the two variables.
 echo "This is ${WORD}${ENDING}"
 
-#Change the value stored in the ENDING variable. (Reassignment)
+# Change the value stored in the ENDING variable. (Reassignment)
 ENDING='ing'
 echo "${WORD}${ENDING} is fun!!"
